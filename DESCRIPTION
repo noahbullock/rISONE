@@ -1,0 +1,12 @@
+Package: rISONE
+Type: Package
+Title: R ISO-NE
+Version: 0.1.1
+Date: 2016-01-12
+Authors@R: c(
+    person("Bullock", "Noah", , "ndbullock@gmail.com", c("aut", "cre")),
+    person("GreenerU", role = "cph")
+    )
+Description: Functions for interacting with the ISO New England API. See https://webservices.iso-ne.com/docs/v1.1/ for full API documentation.
+License: GPL-3
+RoxygenNote: 5.0.1
