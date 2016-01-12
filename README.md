@@ -8,3 +8,18 @@ No warranty is expressed or implied.
 ## Access
 Access credentials can be obtained at the [ISO Express Website](https://www.iso-ne.com/isoexpress/login?p_p_id=58&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&p_p_col_id=column-3&p_p_col_count=1&saveLastPath=0&_58_struts_action=%2Flogin%2Fcreate_account).
 
+## Installation
+This package can be installed using [`devtools`](https://github.com/hadley/devtools):
+```r
+library(devtools)
+install_github("noahbullock/rISONE")
+```
+
+## Basic Use
+Credentials can be added to the environment as options or passed explicitly to the functions.
+```r
+options(ISO_NE_USER = "your@email.com")
+options(ISO_NE_PASSWORD = "yourPassword")
+
+getAllHourlySystemLoadForecastForDay()
+```
